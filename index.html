@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a811bf1cec.js" crossorigin="anonymous"></script>
+    <title>NGO</title>
+  </head>
+  <body>
+    <div class="fullContainer banner" id="homeSection">
+      <header>
+        <div class="container">
+          <div class="logo">
+            <img id="logo" src="logo.png" alt="ngoLogo" srcset="" />
+          </div>
+          <nav>
+            <ul id="menu">
+              <li>
+                <a href="#homeSection">Home</a>
+              </li>
+              <li>
+                <a href="#aboutSection">About Us</a>
+              </li>
+              <li>
+                <a href="#programsSection">Programs</a>
+              </li>
+              <li>
+                <a href="#educationSection">Education</a>
+              </li>
+              <li>
+                <a href="#gallerySection">Gallery</a>
+              </li>
+              <li>
+                <a href="#joinSection">Join Us</a>
+              </li>
+            </ul>
+            <div>
+              <i id="toggleBtn" onclick="classToggle()" class="fas fa-bars"></i>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- header end -->
+
+      <div class="container">
+        <h1>Together We Can <span>Save Lives</span></h1>
+        <p>
+         We work towards creating quality and equitable opportunities for children and communities to learn and grow
+         with a view to long term sustainable change.NAS runs an initiative committed to reducing school dropout rates in children from backward families in rural areas of Bihar. Surveys revealed that lack of money to buy stationery, uniforms, textbooks and school fees is one of the primary reasons for dropping out of school. Those children are deprived of studies and start working to help their families.
+        </p>
+        <a class="button" href="razorpay.api/payment-form.php">Donate Now !</a>
+      </div>
+    </div>
+    <!-- homeSection end here -->
+    <section class="fullContainer" id="aboutSection">
+      <div class="container">
+        <h2 class="sectionTitle">About Us</h2>
+        <p>
+          NAS is an NGO working since 2020 in the fields of Social,  Rural,  Health,  Education,  Environment, Agriculture, Women and Child Development. We are located in a remote village in Bihar which works for poor people. Our overall goal is the empowerment of people from poor and marginalized communities, thereby improving their lives and livelihoods. We are the architects of the government vision of sustainable development under this umbrella, we have organized various development projects, workshops, training camps and programs etc.
+        </p>
+      </div>
+      <div class="cards">
+        <div class="donationBox">
+          <div class="title">Give Donation</div>
+          <p>
+           
+All our efforts are made possible only because of your support
+          </p>
+          <button>Donate Now</button>
+          <!-- Donation Box end -->
+        </div>
+        <div class="volunteerBox">
+          <div class="title">Become a volunteer</div>
+          <p>
+           Thank you for your interest in volunteering with us!
+          </p>
+          <button>Become Now</button>
+        </div>
+        <!-- volunteer Box end -->
+        <div class="schlorshipBox">
+          <div class="title">Give Schlorship</div>
+          <p>
+          ur one time donation of $1000 sends our students to school for one full year.
+          </p>
+          <button>Give immediately</button>
+        </div>
+        <!-- schlorship box end -->
+      </div>
+    </section>
+    <!-- about section end here -->
+    <section class="programs" id="programsSection">
+      <div class="container">
+        <h2 class="sectionTitle">Programs</h2>
+        <div class="boxContainer">
+          <div class="box">
+            <div class="cardImage"></div>
+            <div class="programTitle">Education to every child</div>
+            <div class="donationCount">Donation Goal : <span>$9845</span></div>
+            <button>Donate Now</button>
+          </div>
+          <!-- box end -->
+          <div class="box">
+            <div class="cardImage"></div>
+            <div class="programTitle">Make life easier for them</div>
+            <div class="donationCount">Donation Goal : <span>$9845</span></div>
+            <button>Donate Now</button>
+          </div>
+          <!-- box end -->
+          <div class="box">
+            <div class="cardImage"></div>
+            <div class="programTitle">Dedicating to helping kids</div>
+            <div class="donationCount">Donation Goal : <span>$9845</span></div>
+            <button>Donate Now</button>
+          </div>
+          <!-- box end -->
+          <div class="box">
+            <div class="cardImage"></div>
+            <div class="programTitle">Clean Water for people</div>
+            <div class="donationCount">Donation Goal : <span>$9845</span></div>
+            <button>Donate Now</button>
+          </div>
+          <!-- box end -->
+        </div>
+      </div>
+    </section>
+    <!-- programSetion end -->
+
+    <section class="education" id="educationSection">
+      <video autoplay muted loop class="videoPlayer">
+        <source src="childrens.mp4" type="video/mp4" />
+        your browser does not support HTML5 video
+      </video>
+      <div class="container">
+        <div class="sectionTitle">Education</div>
+        <div class="educationContainer">
+          <h3>
+            Education Is Essential For <br />
+            <strong>BETTER FUTURE</strong>
+          </h3>
+          <p>
+            Education helps a person hone their communication skills by learning how to read, write, speak and listen.Education develops critical thinking.This is vital in teaching a person how to use logic when making decisions and interacting with people (e.g., boosting creativity, enhancing time management).Education helps an individual meet basic job qualifications and makes them more likely to secure better jobs.
+          </p>
+          <button>Explore Now</button>
+        </div>
+      </div>
+    </section>
+    <!-- educationSection end -->
+    <section class="gallery" id="gallerySection">
+      <div class="container">
+        <div class="sectionTitle">Gallery</div>
+        <div class="galleryContainer">
+          <div class="item">
+            <!--<span class="title">Image Title</span>-->
+            <img src="1.jpg" alt="" />
+          </div>
+          <!-- item -->
+          <div class="item">
+            <!--<span class="title">Image Title</span>-->
+            <img src="2.jpg" alt="" />
+          </div>
+          <!-- item -->
+          <div class="item">
+            <!--<span class="title">Image Title</span>-->
+            <img src="3.jpg" alt="" />
+          </div>
+          <!-- item -->
+          <div class="item">
+            <!--<span class="title">Image Title</span>-->
+            <img src="4.jpg" alt="" />
+          </div>
+          <!-- item -->
+          <div class="item">
+            <!--<span class="title">Image Title</span>-->
+            <img src="5.jpg" alt="" />
+          </div>
+          <!-- item -->
+          <div class="item">
+            <!--<span class="title">Image Title</span>-->
+            <img src="6.jpg" alt="" />
+          </div>
+          <!-- item -->
+          <div class="item">
+            <!--<span class="title">Image Title</span>-->
+            <img src="7.jpg" alt="" />
+          </div>
+          <!-- item -->
+          <div class="item">
+            <!--<span class="title">Image Title</span>-->
+            <img src="8.jpg" alt="" />
+          </div>
+          <!-- item -->
+        </div>
+      </div>
+    </section>
+    <!-- gallerySection end -->
+
+    <section class="join" id="joinSection">
+      <div class="container">
+        <div class="joinTitle">ADOPT A CHILD & <span>SAVE LIVES</span></div>
+        <p>
+         When it comes to adopting a child, it’s hard to put into words what you will gain from making this decision. Every parent is unique, and the benefits will vary from family to family. From the feeling of fulfillment experienced knowing that you are providing a home to a child in need to the joy of becoming a parent, the rewards that come with adopting a child are innumerable
+        </p>
+        <button class="joinNow">JOIN US</button>
+        <button class="adoptBtn">ADOPT A CHILD</button>
+      </div>
+    </section>
+    <!-- join section end -->
+
+    <footer>
+      <div class="container">
+        <div class="newsLetterContainer">
+          <img src="img/logo.png" alt="" />
+          <p>
+            NAS is an NGO working since 2020 in the fields of Social,  Rural,  Health,  Education,  Environment, Agriculture, Women and Child Development.
+          </p>
+          <input type="text" placeholder="Enter your email id" /><br>
+        
+          
+        </div>
+        <!-- newsLetterContainer -->
+        <div class="linkContainer">
+          <div class="title">
+            Useful Links
+            <ul>
+              <li>
+                <a href="#homeSection">Home</a>
+              </li>
+              <li>
+                <a href="#aboutSection">About Us</a>
+              </li>
+              <li>
+                <a href="#programsSection">Programs</a>
+              </li>
+              <li>
+                <a href="#educationSection">Education</a>
+              </li>
+              <li>
+                <a href="#gallerySection">Gallery</a>
+              </li>
+              <li>
+                <a href="#joinSection">Join Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- linksContainer -->
+        <div class="connectContainer">
+          <div class="title">Connect with us</div>
+          <p>
+            Mahanagar,Near Phoenix United Mall, Bareilly<br />
+            243203, Uttar Pradesh
+          </p>
+          <p>viansingh15@nas.com</p>
+          <p>(+91) 9149294470</p>
+            <p>&copy 2022 | All Rights Reserved | Created by Vipin Pal</p>
+        </div>
+        <!-- connectContainer -->
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
